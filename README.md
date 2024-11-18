@@ -1,7 +1,11 @@
-# Football Analysis Project
+# Soccer Analysis Project
 
 ## Introduction
-The goal of this project is to detect and track players, referees, and footballs in a video using YOLO, one of the best AI object detection models available. We will also train the model to improve its performance. Additionally, we will assign players to teams based on the colors of their t-shirts using Kmeans for pixel segmentation and clustering. With this information, we can measure a team's ball acquisition percentage in a match. We will also use optical flow to measure camera movement between frames, enabling us to accurately measure a player's movement. Furthermore, we will implement perspective transformation to represent the scene's depth and perspective, allowing us to measure a player's movement in meters rather than pixels. Finally, we will calculate a player's speed and the distance covered. This project covers various concepts and addresses real-world problems, making it suitable for both beginners and experienced machine learning engineers.
+The goal of this project was to develop an advanced Soccer match analysis system capable of detecting and tracking players, referees, and soccer balls in real-time video footage. By leveraging YOLO (You Only Look Once), one of the best AI object detection models available, I was able to track the objects and detect them with high accuracy. Additionally, I implemented a K-Means clustering technique to assign players to teams based on the colors of their t-shirts. This was done through pixel segmentation and clustering to effectively identify and categorize players into their respective teams.
+
+Once the players were identified, the system calculated the ball acquisition percentage for each team, providing insights into which team had control over the ball throughout the match. To accurately measure player movement, I used optical flow techniques to capture camera movements between frames, and perspective transformation to represent the depth and perspective of the scene. This allowed me to measure player movement in meters rather than just pixels, providing a more accurate representation of the distance covered. Finally, I calculated player speed and distance traveled during the match.
+
+This project integrates multiple advanced techniques and tools in computer vision, machine learning, and data processing, making it a comprehensive solution for soccer match analysis.
 
 ![Screenshot](output_videos/screenshot.png)
 
